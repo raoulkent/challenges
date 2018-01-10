@@ -1,15 +1,14 @@
 from data import DICTIONARY, LETTER_SCORES
-import numpy as np
 
 def load_words():
     """Load dictionary into a list and return list"""
-    test=open(DICTIONARY)
-    read(test)
-    pass
+    list = open(DICTIONARY).readlines()
+    return list
 
 def calc_word_value():
     """Calculate the value of the word entered into function
     using imported constant mapping LETTER_SCORES"""
+    for
     pass
 
 def max_word_value():
