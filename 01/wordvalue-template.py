@@ -1,10 +1,7 @@
 from data import DICTIONARY, LETTER_SCORES
-import numpy as np
 
 def load_words():
     """Load dictionary into a list and return list"""
-    test=open(DICTIONARY)
-    read(test)
     pass
 
 def calc_word_value():
